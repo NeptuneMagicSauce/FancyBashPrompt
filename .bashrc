@@ -94,11 +94,4 @@ export HISTCONTROL=erasedups
 if [ -f /usr/share/bash-completion/completions/git ] ; then
 #     # ubuntu 22.4
     source /usr/share/bash-completion/completions/git
-else
-#     # to disable equal to upstream (develop=)
-#     # edit /usr/lib/git-core/git-sh-prompt
-#     # "0      0") # equal to upstream
-#     #        p="" ;;
-#     #        #p="=" ;;
-    source ~/.git-completion.bash
 fi
